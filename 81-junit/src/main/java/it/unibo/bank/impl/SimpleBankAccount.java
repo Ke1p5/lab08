@@ -77,7 +77,7 @@ public class SimpleBankAccount implements BankAccount {
             this.balance += amount;
             this.incrementTransactions();
         } else {
-            throw new IllegalArgumentException("ID not corresponding: cannot perform transaction");
+            throw new IllegalArgumentException("ID not corresponding: cannot perform transaction.");
         }
     }
 }
